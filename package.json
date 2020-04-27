@@ -6,6 +6,9 @@
   "author": "Florian Varrin",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "test": "node test.js"
+  },
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "mongoose": "^5.9.10"
