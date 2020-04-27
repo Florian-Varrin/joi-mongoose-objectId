@@ -32,6 +32,20 @@ OR
 ```
 yarn add joi-mongoose-objectid
 ```
+
+### Tests
+
+There is two simple tests on the test.js file. One for success and one for failure. 
+To test run :  
+```
+npm run test
+```
+
+OR 
+
+```
+yarn test
+```
 ## License
 
 [MIT](https://github.com/mkg20001/joi-objectid/blob/master/LICENSE)
