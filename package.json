@@ -1,0 +1,13 @@
+{
+  "name": "joi-mongoose-objectId",
+  "version": "1.0.0",
+  "description": "Joi extension to validate MongoDB objectId with mongoose",
+  "main": "index.js",
+  "author": "Florian Varrin",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "mongoose": "^5.9.10"
+  }
+}
