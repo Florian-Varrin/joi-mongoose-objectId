@@ -1,7 +1,7 @@
 const Joi = require('./index.js');
 
 const schema = Joi.object({
-    id: Joi.objectId,
+    id: Joi.objectId(),
     name: Joi.string(),
 });
 
