@@ -1,6 +1,6 @@
 {
   "name": "joi-mongoose-objectid",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Joi extension to validate MongoDB objectId with mongoose",
   "main": "index.js",
   "author": "Florian Varrin",
