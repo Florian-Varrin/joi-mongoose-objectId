@@ -10,7 +10,7 @@ It is a Joi extension so you should extends Joi with it. Then you can extend Joi
 
 ```js
 let Joi = require('@hapi/joi');
-const joiObjectIdExtension = require('./index.js');
+const joiObjectIdExtension = require('joi-mongoose-objectid');
 
 Joi = Joi.extend((Joi) => joiObjectIdExtension);
 
