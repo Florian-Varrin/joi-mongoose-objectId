@@ -6,13 +6,13 @@ Joi extension to validate MongoDB objectId with mongoose
 
 `joi-mongoose-objectid` give you the `Joi.objectId()` function that validate the input with `mongoose.Types.ObjectId.isValid(value)`.
 
-It is a Joi extension so you should extends Joi with it.
+It is a Joi extension so you should extends Joi with it. Then you can extend Joi with other extensions.
 
 ```js
 let Joi = require('@hapi/joi');
-const joiObjectIdExtention = require('./index.js');
+const joiObjectIdExtension = require('./index.js');
 
-Joi = Joi.extend((Joi) => joiObjectIdExtention);
+Joi = Joi.extend((Joi) => joiObjectIdExtension);
 
 const schema = Joi.object({
   id: Joi.objectId(),

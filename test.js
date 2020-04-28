@@ -1,7 +1,7 @@
 let Joi = require('@hapi/joi');
-const joiObjectIdExtention = require('./index.js');
+const joiObjectIdExtension = require('./index.js');
 
-Joi = Joi.extend((Joi) => joiObjectIdExtention);
+Joi = Joi.extend((Joi) => joiObjectIdExtension);
 
 const schema = Joi.object({
     id: Joi.objectId(),
